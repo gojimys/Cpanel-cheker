@@ -42,9 +42,7 @@ COPYRIGHT = "Copyright © 2024 Trixsec Org"
 
 def print_banner():
     banner = r"""
-░█▀▀░█▀█░█▀█░█▀█░█▀▀░█░░░░░█▀▀░█░█░█▀▀░█▀▀░█░█░█▀▀░█▀▄
-░█░░░█▀▀░█▀█░█░█░█▀▀░█░░░░░█░░░█▀█░█▀▀░█░░░█▀▄░█▀▀░█▀▄
-░▀▀▀░▀░░░▀░▀░▀░▀░▀▀▀░▀▀▀░░░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀
+
     """
     print(colored(banner, 'cyan'))
     print(colored(f"cPanel Checker Version: {CPANEL_CHECKER_VERSION}", 'yellow'))
